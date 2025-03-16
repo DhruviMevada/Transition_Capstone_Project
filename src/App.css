@@ -1,0 +1,133 @@
+/* Ensure full width and prevent horizontal scrolling */
+* {
+  margin: 0;
+  padding: 0;
+  /* width: 100%;
+  height: 100%; */
+  /* overflow-x: hidden; */
+}
+body{
+  background-color: white;
+  overflow-x: hidden;
+
+}
+
+Container with smooth background transition */
+ .container {
+  width: 100%;
+  height: auto;
+  transition: background-color 0.5s ease-in-out;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+/* .container {
+  max-height: 900vh;
+  width: 100%;
+  transition: background-color 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+} */
+
+
+/* Portfolio section */
+.portfolio-section {
+  position: relative;
+  z-index: 10;
+  color: white;
+  padding: 50px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  /* text-align: center; */
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Grid layout for projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+  gap: 20px;
+  max-width: 1550px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+}
+
+/* .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 100%; /* Prevent overflow */
+  /* justify-content: center; */
+  /* padding: 0 20px; Add padding to avoid overflow */
+/* } */ 
+
+
+/* Project card styling */
+.project-card {
+  background: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Project title */
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+/* Project description */
+.project-description {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Placeholder for project images */
+.project-image {
+  background: gray;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.img{
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  
+}
