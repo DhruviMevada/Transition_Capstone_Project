@@ -40,7 +40,7 @@ export default function Transition() {
         <div className="projects-grid">
           <motion.div id="project-1" className="project-card" style={{ opacity: opacities[0] }}>
             <div className="project-image">
-                <img class="img" src="./image4.jpg"></img>
+                <img class="img" src="https://th.bing.com/th/id/OIP.94TJeXmwXEixDmvT8bf3-wHaFj?w=1000&h=750&rs=1&pid=ImgDetMain"></img>
             </div>
             <h4 className="project-title">Hawa Mahal
             (Jaipur), India</h4>
@@ -48,7 +48,7 @@ export default function Transition() {
           </motion.div>
           <motion.div id="project-2" className="project-card" style={{ opacity: opacities[1] }}>
             <div className="project-image">
-                <img src="./image12.jpg" class="img"></img>
+                <img src="https://th.bing.com/th/id/OIP.Yiu1bIsh0GXgbnv42hnz0QHaFj?w=268&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="img"></img>
             </div>
             <h3 className="project-title">Rani ki Vav
             Stepwell (Patan), Gujarat</h3>
@@ -56,7 +56,7 @@ export default function Transition() {
           </motion.div>
           <motion.div id="project-3" className="project-card" style={{ opacity: opacities[2] }}>
             <div className="project-image">
-            <img src="./image2.jpg" class="img"></img>
+            <img src="https://imgcld.yatra.com/ytimages/image/upload/v1461929855/Delhi-Red_Fort1.jpg" class="img"></img>
             </div>
             <h3 className="project-title">Red Fort
             (Delhi), India</h3>
