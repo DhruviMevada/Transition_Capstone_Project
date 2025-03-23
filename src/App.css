@@ -2,9 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* width: 100%;
-  height: 100%; */
-  /* overflow-x: hidden; */
 }
 body{
   background-color: white;
@@ -12,7 +9,7 @@ body{
 
 }
 
-Container with smooth background transition */
+/* Container with smooth background transition */
  .container {
   width: 100%;
   height: auto;
@@ -24,16 +21,6 @@ Container with smooth background transition */
   padding-top: 20px;
 }
 
-/* .container {
-  max-height: 900vh;
-  width: 100%;
-  transition: background-color 0.5s ease-in-out;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-} */
 
 
 /* Portfolio section */
@@ -52,7 +39,6 @@ Container with smooth background transition */
 .section-title {
   font-size: 2rem;
   font-weight: bold;
-  /* text-align: center; */
   margin: 0;
   padding: 0;
   margin-bottom: 40px;
@@ -70,15 +56,6 @@ Container with smooth background transition */
   align-items: center;
   margin-left: 20%;
 }
-
-/* .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  max-width: 100%; /* Prevent overflow */
-  /* justify-content: center; */
-  /* padding: 0 20px; Add padding to avoid overflow */
-/* } */ 
 
 
 /* Project card styling */

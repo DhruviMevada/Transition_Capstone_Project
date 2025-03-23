@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Transition_Capstone/' // Change this to match your repo name
+  base: "/Transition_Capstone_Project"
 });
